@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'Cairo'; 
+	src: local('Cairo'),url(../fonts/Cairo.ttf); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo';
+}
+
+div{
+    display: block;
+}
+
+.all{
+    padding-bottom: 200px;
+    background: linear-gradient(100deg,#33CCCC,#034569 );
+}
+
+.top {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name{
+    font-size: 25px;
+    color:wheat;
+}
+
+
+.slide_bl{
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+
+
+.text{
+    margin: 15px;
+    
+}
+
+#photo{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}

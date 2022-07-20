@@ -33,16 +33,35 @@ div{
     color:wheat;
 }
 
+.content{
+    text-align: center;
+    box-sizing: border-box;;
+    margin: 100px auto;
+    width: 70vw;
+    height: 60vh;
+    padding: 20px;
+    background: green;
+    border-radius: 12px;
+}
+
+.slides{
+    
+    position: relative;
+}
 
 .slide_bl{
-    max-width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-between;
+    justify-content: center;
+    visibility: hidden;
 
 }
 
+.activate{
+    visibility: visible;
+}
 
 .text{
     margin: 15px;

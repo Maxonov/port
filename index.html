@@ -5,70 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smirnov Maksim</title>
-    <link rel="icon" href="images/icona.png">
+    <link rel="icon" href="images/icona2.png">
     <link rel="stylesheet" type="text/css" href="css/des.css">
+    <script src="js/main.js"></script>
 
 </head>
 <body>
-    <div class='all'>
-        <div class = 'top'>
-            <div id = 'name'>
-                <i><b>Smirnov Maksim</b></i>
+    <header>
+        <div>
+            <h1>
+                <a href = '/'>Smirnov Maksim</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href = '/'>About me</a>
+                    </li>
+                    <li>
+                        <a href = '/'>My news</a>
+                    </li>
+                    <li>
+                        <a href = '/'>My skills</a>
+                    </li>
+                    <li>
+                        <a href = '/'>Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+           <!-- <div id = 'links'>
+                <a href ='https://vk.com/smax294'><img src="images/vklogo.png" ></a>
+                <a href="https://t.me/smax294"><img src="images/tglogo.png" ></a>
+                <a href="https://github.com/MaximSmir"><img src="images/githublogo.png" ></a>
+                <a href="mailto:dendufire@yandex.ru"><img src="images/emaillogo.png" ></a>
+            </div> -->
+        </div>
+    </header>
+
+    <div class = 'content'>
+        <div class="slides">
+            <div class="activate slide_bl" id = "sb1">
+                <div class = 'text'>
+                    <h2 id = 'part'>About me:</h2>
+                    <p>
+                        I'm Maksim Smirnov. I am beginner Data Science and Web developer. I also study algotithms and data structures and like to take part in diffirent contests.
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="images/abme.jpg" id = 'photo'>
+                </div>
             </div>
-            <div id = 'links'>
-                <a href ='https://vk.com/smax294'><img src="images/vklogo.png" height ='30' width="auto"></a>
-                <a href="https://t.me/smax294"><img src="images/tglogo.png" height="30" width="auto"></a>
-                <a href="https://github.com/MaximSmir"><img src="images/githublogo.png" height="30" width="auto"></a>
-                <a href="mailto:dendufire@yandex.ru"><img src="images/emaillogo.png" height="30" width="auto"></a>
+            <div class="slide_bl" id = "sb2">
+                <div class = 'spisok'>
+                    <h2 id = 'part'>My Projects:</h2>
+                    <ul>
+                        <li>Cribweb(not finished, abandoned)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide_bl" id = "sb3">
+                <div class = 'spisok'>
+                    <h2 id = 'part'>My Data Science skills:</h2>
+                    <ul>
+                        <li>NumPy</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                        <li>Scikit-learn</li>
+                        <li>CatBoost</li>
+                        <li>PyTorch</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide_bl" id = "sb4">
+                <div class = 'spisok'>
+                    <h2 id = 'part'>My Backend skills:</h2>
+                    <ul>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>SQLite</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class = 'content'>
-            <div class="slides">
-                <div class="activate slide_bl">
-                    <div class = 'text'>
-                        <h2 id = 'part'>About me:</h2>
-                        <p>
-                            I'm Maksim Smirnov. I am beginner Data Science and Web developer. I also study algotithms and data structures and like to take part in diffirent contests.
-                        </p>
-                    </div>
-                    <div class="img">
-                        <img src="images/abme.jpg" id = 'photo'>
-                    </div>
-                </div>
-                <div class="slide_bl">
-                    <div class = 'spisok'>
-                        <h2 id = 'part'>My Projects:</h2>
-                        <ul>
-                            <li>Cribweb(not finished, abandoned)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="slide_bl">
-                    <div class = 'spisok'>
-                        <h2 id = 'part'>My Data Science skills:</h2>
-                        <ul>
-                            <li>NumPy</li>
-                            <li>Pandas</li>
-                            <li>Matplotlib</li>
-                            <li>Scikit-learn</li>
-                            <li>CatBoost</li>
-                            <li>PyTorch</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="slide_bl">
-                    <div class = 'spisok'>
-                        <h2 id = 'part'>My Backend skills:</h2>
-                        <ul>
-                            <li>Django</li>
-                            <li>Flask</li>
-                            <li>SQLite</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <div class="arrows">
+        <a href="#" title="Previous" class="button arrow slider-link prev"></a>
+        <a href="#" title="Next" class="button arrow slider-link next"></a>
         </div>
     </div>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
+

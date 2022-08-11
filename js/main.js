@@ -2,14 +2,14 @@
 
 document.querySelector('.butmeme').addEventListener("click",function(){
     let elem = document.getElementById("meme");
-    let max = 5,min = 1;
+    let max = 51,min = 1;
     let num = Math.floor(Math.random() * (max - min) + min);
     elem.src = "images/memes/"+num+".jpg";
 });
 
 document.querySelector('.butmeme').addEventListener("click",function(){
     let elem = document.getElementById("meme1");
-    let max = 5,min = 1;
+    let max = 51,min = 1;
     let num = Math.floor(Math.random() * (max - min) + min);
     elem.src = "../images/memes/"+num+".jpg";
 });

@@ -85,6 +85,11 @@ header nav ul li a {
     color: rgba(255,255,255,.5);
     text-decoration: none;
 }
+header a:hover{
+    color:rgba(48, 213, 200,.5);
+}
+
+
 
 h1 {
     display: block;
@@ -99,6 +104,7 @@ h1 {
 main {
     padding-top: 10vh;
     font-size: 1.5rem;
+    text-indent: 2em;
     line-height: 1.6;
     color: #222;
     padding-bottom: 5vh;
@@ -106,10 +112,22 @@ main {
 }
 
 main h2 {
+    text-indent: 0em;
     text-align: center;
     color: #222;
     font-size: 2.4rem;
-    line-height: 1.1;
+    line-height: 1.5;
+}
+
+.contact{
+    text-decoration:none;
+    font-style: italic;
+    color: #111;
+}
+
+.contact:hover{
+    color:rgba(48, 213, 200);
+    font-weight: normal;
 }
 
 main *  {
@@ -119,8 +137,8 @@ main *  {
     max-width: 50rem;
 }
 main >* + * {
-    margin-top: 1.5rem;
-    margin-bottom: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 footer{
@@ -164,6 +182,8 @@ footer div.gen img{
     height: 70vh;
     margin-top: 2rem;
     width: auto;
+    max-width: 60vw;
+    border-radius: 10px;
 }
 
 footer div.gen p {
@@ -209,10 +229,19 @@ a.butmeme{
         font-size: 1.3rem;
     }
 
+    footer{
+        padding-bottom: 25rem;
+    }
+
+    footer div{
+        width: 80vw;
+    }
+
     footer div.gen img{
         height: 50vh;
         margin-top: 2rem;
         width: auto;
+        max-width: 75vw;
     }
 }
 
@@ -223,10 +252,22 @@ a.butmeme{
         bottom: -2rem;
         font-size: 1rem;
     }
+
+    footer{
+        padding-bottom: 10rem;
+    }
+    
+    footer div{
+        width: 95vw;
+        font-size: 0.8rem;
+    }
+
+
     footer div.gen img{
         height: 34vh;
         margin-top: 2rem;
         width: auto;
+        max-width: 90vw;
     }
 }
 /*
